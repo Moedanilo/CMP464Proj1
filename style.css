@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body {
+    background-color: #343f4f;
+}
+
+nav {
+    background-color: #343f4f;
+    margin: 0 auto 10px;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px;
+}
+
+a {
+    color: #ec7f37;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #FF5A09; 
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px black;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    color: #be4f0c;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    z-index: 1;
+    background-color: silver;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    box-shadow: 0 10px 2px 0 #be4f0c, 0 6px 20px 0 #be4f0c;
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+.websiteinfo {
+    padding: auto;
+    margin-top: 15px;
+    text-align: center;
+    color: #be4f0c;
+    padding-bottom: 10px;
+}
+
+.funspan {
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 500px;
+    padding: 10px;
+}
+
+figcaption {
+    background-color: silver;
+    color: #be4f0c;
+    font-style: italic;
+    font-weight: bold;
+    padding: 2px;
+    margin: 10px;
+    text-align: center;
+  }
+
+.align {
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.giphy {
+    float: left;
+    margin-top: 5px;
+    margin-left: 25px;
+    padding: 10px;
+}
+
+.movietext {
+    margin: 20px;
+    padding: 10px 35px;
+    text-align: center;
+    color: #be4f0c;
+    background-color: lightgray;
+    font-weight: bold;
+}
+
+button {
+    align-items: end;
+}
+
+.videoheading {
+    margin-left: 10px;
+    color: #be4f0c;
+    background-color: #343f4f;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.videoalign {
+    width: 300px;
+    height: 300px;
+    background-color: #FF5A09;
+    display: flex;
+    padding: 15px;
+    margin-right: 25px;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.enjoy {
+    color: #be4f0c;
+    padding-top: 20px;
+    background-color: silver;
+}
+
+button {
+    border: 2px solid #be4f0c;
+    color: #be4f0c;
+    background-color: #393939;
+    padding: 0px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+footer {
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 15px;
+    color: #be4f0c;
+}

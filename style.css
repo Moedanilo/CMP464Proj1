@@ -154,3 +154,7 @@ footer {
     margin-top: 15px;
     color: #be4f0c;
 }
+
+footer form {
+    text-align: left;
+}

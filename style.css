@@ -117,15 +117,16 @@ button {
     text-align: center;
 }
 
+video {
+    margin-left: 35px;
+    align-items: right;
+}
+
 .videoalign {
     width: 300px;
     height: 300px;
-    background-color: #FF5A09;
     display: flex;
-    padding: 15px;
-    margin-right: 25px;
-    vertical-align: middle;
-    align-items: center;
+    margin-bottom: 20px;
 }
 
 .enjoy {
